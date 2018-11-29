@@ -15,7 +15,7 @@ variable "name" {
 
 variable "visibility_timeout_seconds" {
   description = "The visibility timeout for the queue. An integer from 0 to 43200 (12 hours)"
-  default     = 30
+  default     = 90
 }
 
 variable "message_retention_seconds" {
